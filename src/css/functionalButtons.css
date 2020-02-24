@@ -1,0 +1,63 @@
+.functionalButton {
+    border: 2px solid black;
+    height: 64px;
+    width: 192px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #f0f0f5;
+    border-radius: 40px;
+    margin: 3px 0;
+}
+
+.functionalButtonClicked {
+    border: 2px solid dodgerblue;
+    height: 64px;
+    width: 192px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 22px;
+    border-radius: 40px;
+    margin: 3px 0;
+}
+
+.functionalButton:hover {
+    height: 64px;
+    width: 192px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 22px;
+    border-radius: 40px;
+    margin: 3px 0;
+    transition-duration: 0.25s;
+}
+
+.functionalButtonsContainer {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 192px;
+}
+
+.confirmButton {
+    border: 1px solid green;
+    height: 32px;
+    width: 192px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f0f0f5;
+    color: green;
+    margin: 3px 0;
+}
+
+.confirmButton:hover {
+    transform: scale(1.10);
+}
+
+.messageSuccess {
+    color: green;
+}
+
+.messageFailed {
+    color: red;
+}

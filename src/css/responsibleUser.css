@@ -1,0 +1,11 @@
+.updateUserButton {
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    border:1px solid black;
+}
+
+.updateUserButton:hover {
+    transition-duration: 0.25s;
+    background-color: #e0e0eb;
+}

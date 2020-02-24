@@ -1,0 +1,12 @@
+.signOutButton {
+    width: 160px;
+    height: 38px;
+    font-size: 22px;
+    border-radius: 26px;
+    background-color: dodgerblue;
+    color: white;
+}
+.signOutButton:hover {
+    transition-duration: 0.25s;
+    transform: scale(1.05);
+}

@@ -1,0 +1,27 @@
+.finishedButton {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: green;
+    border: 1px solid green;
+    background-color: #f0f0f5;
+}
+
+.abandonedButton {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: red;
+    border: 1px solid red;
+    background-color: #f0f0f5;
+}
+
+.abandonedButton:hover {
+    transition-duration: 0.25s;
+    background-color: #e0e0eb;
+}
+
+.finishedButton:hover {
+    transition-duration: 0.25s;
+    background-color: #e0e0eb;
+}
